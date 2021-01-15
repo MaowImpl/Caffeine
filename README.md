@@ -1,9 +1,9 @@
-# Caffeine
-Java 8 source preprocessor/subset. (WIP)<br>
-Uses: ANTLR4, JavaPoet
+# Caffeine - WORK IN PROGRESS
+Java 8 source preprocessor/subset, adds new keywords to Java to reduce boilerplate.
+*Uses: `ANTLR4`, `JavaPoet`*
 
 ## Caffeine Syntax
-At the moment, Caffeine is less of a real project and more of a demo, so there's not much syntax.<br>
+At the moment, Caffeine is less of a real project and more of a demo, so there's not much syntax or functionality.<br>
 Future plans will include an IntelliJ and Gradle plugin.
 
 **Data Classes**
