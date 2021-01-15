@@ -15,9 +15,10 @@ public data class CaffeineTest {
 }
 ```
 
-For each field in a data class, a new getter will be generated.
-If the field is mutable, a setter will be generated.
-If the field is immutable, a constructor parameter will be generated.
+On field found:
+* **Always** generate a new getter method.
+* If **immutable**, generate a constructor parameter.
+* If **mutable**, generate a setter method.
 
 Output:
 
