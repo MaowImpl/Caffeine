@@ -1,0 +1,4 @@
+public data class CaffeineTest {
+    private final String immutable;
+    private String mutable;
+}
