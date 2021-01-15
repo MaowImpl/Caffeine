@@ -6,7 +6,9 @@ Java 8 source preprocessor/subset, adds new keywords to Java to reduce boilerpla
 At the moment, Caffeine is less of a real project and more of a demo, so there's not much syntax or functionality.<br>
 Future plans will include an IntelliJ and Gradle plugin, as well as more keywords like `builder` or `immutable`.
 
-**Data Classes**
+### Data Classes
+
+#### Caffeine Source (Input)
 
 ```java
 public data class CaffeineTest {
@@ -20,7 +22,7 @@ On field found:
 * If **immutable**, generate a constructor parameter.
 * If **mutable**, generate a setter method.
 
-Output:
+#### Java Source (Output)
 
 ```java
 public class CaffeineTest {
@@ -45,3 +47,5 @@ public class CaffeineTest {
    }
 }
 ```
+
+### More coming in the future (maybe).
